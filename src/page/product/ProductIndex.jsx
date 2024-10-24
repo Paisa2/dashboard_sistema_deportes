@@ -1,14 +1,17 @@
-import Box from '@mui/material/Box';
+import Box from '@mui/material/Box'
+import ListProduct from './ListProduct'
+
 
 export default function Producto() {
 
 
     return (
             <>
-                <Box component="main" sx={{ flexGrow: 1, p: 8 }}>
-                    <Box height={10} />  
-                    <h1>Productos</h1>
+                <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+                    <Box height={90} />  
+                    <ListProduct />
                 </Box>
+
             </>
     )
 }

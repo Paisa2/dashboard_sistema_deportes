@@ -1,13 +1,14 @@
 import Box from '@mui/material/Box';
+import ListUser from '../user/ListUser'
 
 export default function Usuario() {
 
 
     return (
             <>
-                <Box component="main" sx={{ flexGrow: 1, p: 8 }}>
-                    <Box height={10} />  
-                    <h1>Usuario</h1>
+                <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+                    <Box height={90} />  
+                    <ListUser />
                 </Box>
             </>
     )
