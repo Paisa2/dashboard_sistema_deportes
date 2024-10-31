@@ -36,9 +36,9 @@ const columns = [
     },
 ];
 
-function createData(name, code, population, size) {
-    const density = population / size;
-    return { name, code, population, size, density };
+function createData(nombre, apellido, email) {
+    const density = nombre / apellido;
+    return { nombre, apellido, email };
 }
 
 const rows = [
